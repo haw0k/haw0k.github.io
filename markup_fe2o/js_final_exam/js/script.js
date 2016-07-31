@@ -4,7 +4,7 @@ var API_KEY = '2627823-b4a9afed2842cde123c1026a7';
 
 function imageSearch() {
   // $( ".grid" ).empty();
-  var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+  var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 
   var searchStr;
 
