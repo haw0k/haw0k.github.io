@@ -1,0 +1,42 @@
+body {
+  background-color: #d4cae1;
+}
+
+.digits {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablo {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 0 10px 0 10px;
+}
+
+.controls {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__start, .button__reset {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  width: 160px;
+  margin: 0 10px 0 10px;
+}
+.button__start {
+  background: rgb(28, 184, 65);
+}
+
+.button__reset {
+  background: rgb(202, 60, 60);
+}

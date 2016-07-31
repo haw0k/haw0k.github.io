@@ -1,0 +1,398 @@
+/************************************************************************************
+max-width 767px, design 480
+*************************************************************************************/
+@media (max-width: 767px) {
+	.menu {
+		width: 250px;
+		border-radius: 10px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 133px;
+		margin: auto;
+		border: none;
+		box-shadow: none;
+		z-index: 9999;
+		text-transform: uppercase;
+	}
+	.menu__link {
+		text-align: center;
+		height: 47px;
+		line-height: 47px;
+		color: white;
+		font-family: "League Gothic";
+		font-size: 24px;
+		text-decoration: none;
+		background:none;
+		border-top:none;
+		border-bottom:none;
+		display: none;
+		box-shadow: none;
+	}
+	.menu__link:first-child{
+		border-radius: 10px 10px 0 0;
+	}
+	.menu__link:last-child{
+		border-radius: 0 0 10px 10px;
+	}
+	.menu__link--active .menu__item-underline{
+		display: inline-block;
+		border-bottom: 2px solid #edbfff;
+		padding: 0 2px;
+		line-height: 30px;
+	}
+	.menu__link--active{
+		display: block;
+	}
+
+	.menu:hover .menu__link:hover{
+		background: rgb(43, 34, 49);
+		background-color: rgba(43, 34, 49, .9);
+	}
+	.menu:hover .menu__link:hover .menu__item-underline{
+		display: block;
+		border-bottom: 2px solid #edbfff;
+		padding: 0 2px;
+		line-height: 43px;
+	}
+	.menu:hover {
+		border: 1px solid #121b22;
+		box-shadow: inset 0 1px 0 #5f486a;
+	}
+	.menu:hover .menu__link{
+		display: block;
+		box-shadow: 0 1px 1px #523e5a;
+		background: rgb(54, 41, 62);
+		background-color: rgba(54, 41, 62, .9);
+		border-top: 1px solid #503d58;
+		border-bottom: 1px solid #36283e;
+	}
+}
+
+/************************************************************************************
+min-width 480-767px, design 480
+*************************************************************************************/
+@media (min-width: 480px) and (max-width: 767px) {
+
+  .mix-container {
+		width: 100%;
+	}
+
+  .page-header__logo-wrapper {
+    padding-top: 70px;
+    margin-bottom: 92px;
+  }
+
+  /* UPPER SLIDER */
+  .upper-slider__item-bg {
+    background-color: rgba(0, 0, 0, .2);
+  }
+  .upper-slider__item-wrapper {
+    padding-top: 93px;
+    padding-left: 40px;
+    padding-bottom: 96px;
+  }
+  .upper-slider__button-left {
+    top: 4px;
+    left: -4px;
+  }
+  .upper-slider__button-right {
+    right: -4px;
+    top: 3px;
+  }
+  .upper-slider__item-img {
+    display: block;
+    position: absolute;
+    top: -9px;
+    right: 30px;
+    right: 31px;
+    width: 39.9%;
+    max-width: 210px;
+  }
+  .upper-slider__item-header {
+    color: #FEFEFE;
+    font-family: "League Gothic";
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 3px;
+    margin-left: auto;
+  }
+  .upper-slider__item-subheader {
+    color: #EDBFFF;
+    font-family: "League Gothic";
+    text-align: left;
+    font-size: 18px;
+    margin-left: auto;
+  }
+
+  .upper-slider__button-left {
+    position: absolute;
+    margin: auto;
+    top: 1px;
+    bottom: 0;
+    left:-3px;
+    height: 42px;
+    cursor: pointer;
+  }
+  .upper-slider__button-right {
+    position: absolute;
+    margin: auto;
+    top: 1px;
+    bottom: 0;
+    right: -3px;
+    height: 42px;
+    cursor: pointer;
+  }
+
+  .radio-wrapper {
+    text-align: center;
+    height: 98px;
+    padding-top: 21px;
+  }
+  .radiogroup {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+  }
+
+/* ABOUT STORY */
+  .about-story {
+	  padding-top: 77px;
+	  padding-bottom: 49px;
+    padding-left: 2px;
+  }
+
+/* LOWER SLIDER*/
+  .reviews {
+    background-color: #f9f9f9;
+  }
+  .lower-slider {
+    padding-top: 68px;
+    padding-left: 6.25%; /*20/320*/
+    padding-right: 6.25%; /*20/320*/
+  }
+  .lower-slider__item {
+    margin-left: 6.25%; /*20/320*/
+    background-color: #ffffff;
+    padding-left: 13.67%; /*35/256*100*/
+    padding-right: 13.67%; /*35/256*100*/
+    padding-top: 24px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    position: relative;
+    padding-bottom: 33px;
+  }
+  .lower-slider__iteem-userpic {
+    position: absolute;
+    top: 15px;
+    left: -22px;
+  }
+  .lower-slider__item-header {
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.9px 0 white;
+  }
+  .lower-slider__item-header--pink {
+    color: #edbfff;
+  }
+  .lower-slider__item-text {
+    overflow: hidden;
+    color: #454545;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 5px;
+    height: 164px;
+  }
+  .radio-wrapper--white {
+    height: 86px;
+    text-align: center;
+    padding-top: 19px;
+  }
+  .lower-slider__wrapper{
+	  width: 100%;
+	  margin: 0 auto;
+  }
+  .lower-slider {
+  	padding-top: 72px;
+  }
+  .lower-slider__item {
+  	margin-left: 13px;
+  	margin-right: 49px;
+  	padding-left: 40px;
+  	padding-right: 40px;
+  	padding-bottom: 37px;
+  	padding-top: 28px;
+  }
+  .lower-slider__item-header {
+  	font-size: 30px;
+  	display: inline-block;
+  }
+  .lower-slider__item-header--pink {
+  	font-size: 30px;
+  	display: inline-block;
+  }
+  .lower-slider__item-text {
+  	font-size: 17px;
+  	margin-top: 17px;
+  }
+  .radio-wrapper--white	{
+  	padding-top: 23px;
+  	padding-right: 46px;
+  }
+
+  /* UPDATES */
+  .updates {
+    margin-left: 6.25%;    /*20/320*/
+    margin-right: 6.25%;    /*20/320*/
+  }
+  .updates__header {
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 0.5px 0.9px 0 white;
+    margin-left: -5px;
+  }
+  .updates__item {
+    padding-left: 62px;
+    position: relative;
+  }
+  .updates__item-image {
+    position: absolute;
+    top: 0px;
+    left: 54px;
+  }
+  .updates__item-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    height: 24px;
+    overflow: hidden;
+  }
+  .updates__item-descr {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    height: 24px;
+    overflow: hidden;
+  }
+  .updates__more-link {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 19px;
+    font-weight: 400;
+    text-align: right;
+     margin-top: 24px;
+    margin-bottom:70px;
+    margin-right: 9px;
+    text-decoration: none;
+  }
+  .updates {
+  	padding-bottom: 87px;
+  	border-bottom: 1px solid white;
+  	margin-top: -3px;
+  }
+  .updates__header {
+  	margin-top: 3px;
+  	padding-left: 58px;
+  	margin-bottom: 16px;
+  }
+  .updates__item {
+  	padding-left: 119px;
+  	margin-bottom: 20px;;
+  }
+  .updates__more-link-container {
+    text-align: right;
+    margin-top: -9px;
+    margin-right: -6px;
+  }
+  .updates__more-link {
+  	margin-top: -3px;
+  	margin-right: 31px;
+  }
+
+
+  /* LOGOS */
+  .logos__wrapper {
+    padding-top: 36px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+  }
+  .logos__image-wrapper {
+    width: 33.33%;
+    margin-bottom: 25px;
+  }
+
+  /* NEWS */
+  .news {
+    display: block;
+    background-color: #ececec;
+    border-top: 1px solid #d8d8d8;
+  }
+
+  .news__wrapper {
+    padding: 80px 20px 36px;
+  }
+  .news__description {
+    display: none;
+  }
+  .news__comments {
+    display: none;
+  }
+  .news__categories-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .news__categories-text {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #787878;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    height: 92px;
+    overflow: hidden;
+    margin-bottom: 60px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding-top: 0px;
+  }
+  .footer__menu {
+    display: block;
+    padding-top: 38px;
+    padding-bottom: 19px;
+    text-align: center;
+  }
+
+  .footer__menu-item {
+    color: white;
+    font-family: "League Gothic";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0px 10px;
+  }
+}

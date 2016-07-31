@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* TABS */
+.tabs, form {
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  font-family: Verdana, Arial, sans-serif;
+  /*font-size: 11px;*/
+  padding: 5px;
+  margin: 5px;
+}
+
+ul {
+  margin: 0;
+  padding: 10px 3px 0 10px;
+  background: linear-gradient(to bottom, rgba(227,227,227,1) 0%,rgba(227,227,227,1) 28%,rgba(204,204,204,1) 91%,rgba(204,204,204,1) 100%);
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  font-weight: bold;
+  list-style: none;
+  display: block;
+}
+ul:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+li {
+  border: 1px solid #aaaaaa;
+  background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%);
+  font-weight: normal;
+  color: #212121;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  float: left;
+  text-align: center;
+}
+li:after {
+  float: none;
+}
+
+.li1 {
+  background: white;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  margin: 10px 30px 10px 30px;
+  padding: 0px -3px 0 -3px;
+  color: black;
+}
+
+p {
+  cursor: text;
+  background: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+form {
+  margin-top: 5%;
+}
+
+/* INPUT FORM*/
+.name-wrapper {
+  margin: 10px;
+}
+
+#firstname {
+  margin-left: 2px;
+}
+
+#lastname {
+  margin-left: 9px;
+}
+
+#address {
+  margin-left: 16px;
+}
+
+label {
+  font-family: monospace;
+}
+.button {
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+.hint-firstname, .hint-lastname, .hint-address {
+  background-color: black;
+  color: white;
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.5);
+  font-size: 11px;
+  line-height: 15px;
+  width: 220px;
+  text-align: center;
+  display: none;
+}

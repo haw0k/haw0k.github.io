@@ -1,0 +1,51 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.button-submit {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.modalWindow {
+	display: none;
+  background-color: lightgrey;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 3px;
+	width:300px;
+	height:100px;
+	border:1px solid grey;
+	position: absolute;
+	top: 30%;
+	left:50%;
+	margin-left:-150px;
+	z-index: 1;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ok-button {
+  background-color: black;
+  color: white;
+  border: 1px solid darkgrey;
+  border-radius: 2px;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 125px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>JavaScript 09-10 modules homework</title>
+	<link rel="stylesheet" href="css/jcarousel.basic.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.checkbox.js"></script>
+	<script type="text/javascript" src="js/jquery.customSelect.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/jcarousel.basic.js"></script>
+	<script type="text/javascript" src="js/jquery.color-2.1.2.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+
+	<h1>JavaScript 09-10 modules homework</h1>
+	<hr>
+
+	<h3><a href="http://callmenick.com/post/slide-down-menu-with-jquery-and-css">JS Menu</a> demo</h3>
+
+	<nav>
+    <ul class="content clearfix">
+        <li><a href="#">Nav 1</a></li>
+        <li><a href="#">Nav 2</a></li>
+        <li class="dropdown">
+            <a href="#">Nav 3</a>
+            <ul class="sub-menu">
+                <li><a href="#">Nav 3.1</a></li>
+                <li><a href="#">Nav 3.2</a></li>
+                <li><a href="#">Nav 3.3</a></li>
+                <li class="dropdown">
+                    <a href="#">Nav 3.4</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Nav 3.4.1</a></li>
+                        <li class="dropdown">
+                            <a href="#">Nav 3.4.2</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Nav 3.4.2.1</a></li>
+                                <li><a href="#">Nav 3.4.2.2</a></li>
+                                <li><a href="#">Nav 3.4.2.3</a></li>
+                                <li><a href="#">Nav 3.4.2.4</a></li>
+                                <li><a href="#">Nav 3.4.2.5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Nav 3.4.3</a></li>
+                        <li><a href="#">Nav 3.4.4</a></li>
+                        <li><a href="#">Nav 3.4.5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Nav 3.5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Nav 4</a></li>
+        <li><a href="#">Nav 5</a></li>
+    </ul>
+	</nav>
+
+	<hr>
+
+	<h3>
+		<a href="http://xiper.net/collect/html-and-css-tricks/verstka-form/kastomnie-checkbox-i-radio-na-css">CSS checkbox</a> demo</h3>
+
+	<div class="css-checkbox">
+		<form action="#">
+				<div>
+					<input id="test-check1" type="checkbox">
+					<label for="test-check1">CSS checkbox 1:</label>
+				</div>
+				<div>
+					<input id="test-check2" type="checkbox">
+					<label for="test-check2">CSS checkbox 2:</label>
+				</div>
+		</form>
+	</div>
+	<hr>
+
+	<h3><a href="http://xiper.net/collect/html-and-css-tricks/verstka-form/nice-checkbox">jQuery custom checkbox</a> demo</h3>
+
+	<div class="jquery-checkbox">
+		<form action="#">
+			<div>
+				<label for="ch1">jQuerty checkbox 1</label>
+				<span class="niceCheck"><input type="checkbox" name="ch1" id="ch1"/></span>
+			</div>
+			<div>
+				<label for="ch2">jQuerty checkbox 2</label>
+				<span class="niceCheck"><input type="checkbox" checked="checked" name="ch2" id="ch2"/></span>
+			</div>
+		</form>
+	</div>
+	<hr>
+	<div class="listbox">
+		<h3><a href="http://adam.co/lab/jquery/customselect/">Custom Select Box CSS Style Plugin</a> Demo: jQuery + CSS</h3>
+		<p>This lightweight, unintrusive technique uses the native
+			select box functionality of the web browser, and overlays a
+			stylable &lt;span&gt; element in order to acheive your desired look.
+			Since it makes use of default browser functionality, it can be treated
+			just like any ordinary HTML select box. This concept is based
+			on <a href="http://ryanfait.com/resources/custom-checkboxes-and-radio-buttons/">Ryan
+			Fait's method</a> of styling select boxes, but as a jQuery Plugin.</p>
+		<label>Unstyled:</label>
+		<select>
+			<option>one</option>
+			<option>two</option>
+			<option>something</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		<label>Styled:</label>
+		<select class="styled">
+			<option>one</option>
+			<option>two</option>
+			<option>something</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+	</div>
+
+	<hr>
+
+	<h3><a href="http://sorgalla.com/jcarousel/">jQuery Carousel</a> demo</h3>
+
+	<div class="jcarousel-wrapper">
+		<div class="jcarousel">
+			<ul>
+				<li><img src="img/DSC_0095.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0118.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0119.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0129.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0184.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0197.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0202.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0216.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0230.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0331.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0341.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0368.JPG" width="600" height="400" alt=""></li>
+				<li><img src="img/DSC_0370.JPG" width="600" height="400" alt=""></li>
+			</ul>
+		</div>
+		<p class="photo-credits">
+				Photos by <a href="http://cyrilo.blogspot.com">Cyril Zlachevsky</a>
+		</p>
+
+			<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+			<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+			<p class="jcarousel-pagination">
+
+			</p>
+	</div>
+
+</div>
+</body>
+</html>

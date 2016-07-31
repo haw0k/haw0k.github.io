@@ -1,0 +1,195 @@
+/************************************************************************************
+min-width 768-959px, design tablet
+*************************************************************************************/
+@media (min-width: 768px) and (max-width: 959px) {
+  .main-page--wrapper {
+    font: $bold;
+    width: 100%;
+    height: 100%;
+    color: $white;
+    min-width: 768px;
+    max-width: 959px;
+  }
+
+  /* --------------------- HEADER --------------------- */
+  header {
+    height: 700px;
+    background-image: url(../img/tablet/header_pic.jpg);
+    .headline {
+      position: absolute;
+      top: -70px;
+      left: 49px;
+    }
+    button {
+      width: 225px;
+    }
+  }
+  .authorization--wrapper {
+    float: right;
+    padding-top: 38px;
+    margin-right: 51px;
+  }
+  .deviz-1 {
+    margin-top: 0;
+    padding-top: 214px;
+    font-size: 52px;
+  }
+  .deviz-2 {
+    font-size: 52px;
+  }
+  .deviz-3 {
+    margin-top: 29px;
+    margin-bottom: 2px;
+    p {
+      font-size: 24px;
+    }
+  }
+  /* --------------------- CONTENT --------------------- */
+  @import 'steps-tablet'; /* HOW WORKS */
+
+  /* PARTNERS */
+  .partners--container {
+    width: 569px;
+    height: 563px;
+    h2 {
+      margin-top: 48px;
+      letter-spacing: normal;
+      margin-left: 10px;
+    }
+  }
+  .partner--wrapper {
+    width: 280px;
+    float: left;
+    position: relative;
+    top: 19px;
+    left: 27px;
+  }
+  .partner--wrapper--2 {
+    float: right;
+    top: 4px;
+    left: -4px;
+  }
+  .partner--wrapper--3 {
+    float: left;
+    top: 47px;
+    left: 28px;
+  }
+  .partner--wrapper--4 {
+    float: right;
+    top: 3px;
+    left: -4px;
+  }
+
+  /* SEARCH PARTNERS BUTTON */
+  .search-partners {
+    width: 192px;
+    margin: 0 auto;
+    position: relative;
+    left: 10px;
+  }
+  .search-partners--button {
+    width: 100%;
+  }
+  /* -- ACTIVITIES -- */
+  .activities--container {
+    margin: 0 auto;
+    margin-top: 96px;
+    width: 768px;
+    h2 {
+      margin-bottom: 34px;
+    }
+    h3 {
+      margin-top: -2px;
+    }
+  }
+  .grid {
+    width: 748px;
+  }
+  .grid-sizer,
+  .grid-item {
+    width: 236px;
+  }
+  .grid-item {
+    height: 310px;
+    float: left;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    p {
+      width: 236px;
+      height: 310px;
+      font-size: 22px;
+      color: white;
+      text-align: center;
+      position: relative;
+      vertical-align: middle;
+      display: table-cell;
+      z-index: 2;
+    }
+  }
+  .grid-item--width2 {
+    width: 492px;
+    p {
+      width: 492px;
+    }
+  }
+  /* SEARCH */
+  .search--container {
+    margin-top: 73px;
+  }
+  .search__input {
+    margin-top: 37px;
+    width: 224px;
+    margin-left: -3px;
+  }
+  .search__button {
+    width: 160px;
+    margin-left: 5px;
+  }
+  /*------ FOOTER -------*/
+  footer {
+    margin-top: 100px;
+    height: 200px;
+  }
+  .footer__headline {
+    margin-top: 12px;
+    margin-left: 40px;
+    float: left;
+  }
+  .footer-menu__wrapper {
+    margin-top: 24px;
+    margin-left: 20px;
+  }
+  .footer-menu__headline {
+    margin-left: 82px;
+    float: left;
+  }
+  .footer-menu__headline--2 {
+    margin-left: -29px;
+    margin-top: 12px;
+  }
+  .footer-menu {
+    text-align: left;
+    float: left;
+    margin-top: 40px;
+    margin-left: -67px;
+    line-height: 24px;
+  }
+  .footer-menu__item {
+    float: none;
+  }
+  .footer-logo {
+    float: right;
+    width: 110px;
+    position: relative;
+    left: -41px;
+    top: -1px;
+    // margin-right: 40px;
+    // margin-top: -108px;
+    h4 {
+      float: right;
+    }
+    img {
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+		body {
+			background-color: #F0F0F1;
+			}
+
+		.main_page {
+			margin: 0 auto;			
+			padding: 10px 30px;
+			background-color: white;
+			width: 30%;
+			height: 90%;
+			-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+			box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);			
+		}	
+
+		.with_line_centered{
+				margin-top: 20px;
+				margin-bottom: 20px;
+				text-align: center;		
+				padding-bottom: 10px;
+		}
+
+		.with_line {
+				border-bottom: 1px solid black;
+				padding-bottom: 5px;
+			}
+		.without_line {
+				border-bottom: none;
+				padding-bottom: 15px;
+			}
+		.last_paragraph {
+				padding-bottom: 40px;			
+		}
+		a {
+				margin-bottom: 15px;
+		}

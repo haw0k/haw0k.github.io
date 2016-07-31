@@ -1,0 +1,215 @@
+body {
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    font: 15px/1.5 Helvetica, Arial, sans-serif;
+    color: #4E443C;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+    color: #4E443C;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2, h2 a {
+    color: #F14E32;
+}
+
+h3, h3 a {
+  color: #0388A6;
+}
+
+a {
+  color: #0388A6;
+}
+
+hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.wrapper {
+    max-width: 620px;
+    padding: 0 20px 40px 20px;
+    margin: auto;
+}
+
+/*
+jQuery checkboxes
+*/
+.niceCheck {
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  cursor: pointer;
+  background: url(../img/checkbox.png);
+}
+.niceCheck input {
+  display: none;
+}
+
+/* CSS checkboxes */
+.css-checkbox input[type=checkbox] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+.css-checkbox label {
+  cursor: pointer;
+}
+.css-checkbox label:after {
+  content: ' ';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url(../img/checkbox-2.png);
+  position: relative;
+  top: 3px;
+  margin-left: 15px;
+}
+
+.css-checkbox input[type=checkbox]:checked + label:after {
+  background-position: 0 -17px;
+}
+
+.css-checkbox label:hover:after {
+  background-position: 0 -34px;
+}
+
+.css-checkbox input[type=checkbox]:checked + label:hover:after {
+  background-position: 0 -51px;
+}
+
+
+/*
+ CUSTOM SELECT
+*/
+.customSelect {
+  font-size: 16px;
+	background-color: #ff8c38;
+  color: black;
+	padding:5px 7px;
+	border:1px solid #37271c;
+	border-radius: 5px 5px;
+}
+
+.customSelect.customSelectHover {
+  border: 1px solid #fbce45;
+}
+.customSelect.customSelectOpen {
+
+}
+
+.customSelect.customSelectFocus {
+/* Styles for when the select box is in focus */
+  box-shadow: 0px 0px 5px 1px rgba(105,155,204,1);
+}
+
+.customSelect.customSelectDisabledOption {
+/* Styles for when the selected item is a disabled one */
+}
+
+.customSelect.customSelectDisabled {
+/* Styles for when the select box itself is disabled */
+}
+
+.customSelect.changed {
+	background-color: #f0dea4;
+}
+.customSelectInner {
+	background:url("../img/arrow-down.png") no-repeat center right;
+}
+
+/* JS Menu */
+/* =Styles for the lab
+-------------------------------------------------------------- */
+/*#wrapper {
+	min-width: 1000px;
+}*/
+nav {
+	background-color: #ff8c38;
+	padding: 10px 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+/* sub navigation */
+nav li ul {
+    background-color: #FBAB70;
+    position: absolute;
+    left: 0;
+    top: 40px; /* make this equal to the line-height of the links (specified below) */
+    width: 200px;
+}
+nav li li {
+    position: relative;
+    margin: 0;
+    display: block;
+}
+nav li li ul {
+    position: absolute;
+    top: 0;
+    left: 200px; /* make this equal to the width of the sub nav above */
+    margin: 0;
+}
+
+/* style all links */
+nav a {
+    line-height: 40px;
+    padding: 0 12px;
+    margin: 0 12px;
+}
+nav a {
+    color: #2C2621;
+    text-decoration: none;
+    display: block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color: black;
+    /*background-color: #6F5F52;*/
+}
+
+/* style sub level links */
+nav li li a {
+    border-bottom:solid 1px #4E443C;
+    margin:0 10px;
+    padding:0;
+}
+nav li li:last-child a {
+    border-bottom:none;
+}
+
+/* hide sub menu links */
+ul.sub-menu {
+    display:none;
+}
+
+/* show arrows for dropdowns */
+nav li.dropdown > a {
+    background-image:url('../img/arrow-down.png');
+    background-position:right 19px;
+    background-repeat:no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image:url('../img/arrow-right.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}

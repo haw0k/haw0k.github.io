@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript homework 15-16</title>
+  <link rel="stylesheet" href="css/pixabay.css">
+  <script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+  <script src="js/tmpl.js" type='text/javascript'></script>
+  <script src="js/script.js" type='text/javascript'></script>
+  <script src="js/script2.js" type='text/javascript'></script>
+</head>
+<body>
+  <header>
+    <div class="logo-wrapper">
+      <a href="https://pixabay.com"><img class="logo" src="https://pixabay.com/static/img/logo.svg" alt="Logo"></a>
+    </div>
+    <div class="input-wrapper">
+      <form action="GET">
+        <input id="input-text" type="text" size="33" placeholder=" type a picture name">
+        <input class="button-submit" type="submit" value="Search" >
+      </form>
+    </div>
+  </header>
+    <div class="template">
+      <script type="text/html" id="resig-template">
+          <div class="pic-preview">
+            <img src=<%= data.previewURL %> width=<%= data.previewWidth %> height=<%= data.previewHeight %> alt=<%= data.type %> title="Picture id: <%= data.id %>, user: <%= data.user %>, views: <%= data.views %>, downloads: <%= data.downloads %>">
+          </div>
+       </script>
+    </div>
+    <footer>
+      <div id="insertion-wrapper"></span>
+    </footer>
+</body>
+</html>

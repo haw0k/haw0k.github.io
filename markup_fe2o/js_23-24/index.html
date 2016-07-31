@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script data-main="js/app.js" src="js/require.js"></script>
+</head>
+<body>
+    <script type="text/template" id="wrapper-template">
+      <div class="outer-wrapper">
+      <div class="inner-wrapper">
+        <h1>todo list</h1>
+        <ul class="item-list">
+        </ul>
+        <div class="controlls">
+          <input type="text" class="item-value" placeholder="Type new task">
+          <button class="item-add">Add</button>
+        </div>
+      </div>
+    </div>
+    </script>
+
+    <script type="text/template" id="list-template">
+      <% for (i = 0; i < data.length; i++) { %>
+        <li class="item__block"><input type="text" disabled = "disabled" value="<%= data[i] %>" class="toDoList__item"><span data-value="<%= data[i] %>" class="item-delete">x</span></li>
+      <% }; %>
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+/** {
+  margin: 0;
+  padding: 0;
+}*/
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header__title {
+  font-weight: normal;
+  text-align: center;
+}
+
+.questions__container {
+  display: block;
+}
+.question__title {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.button-submit {
+  width: 300px;
+  height: 40px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 5.1</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="header">
+       <div class="ola">
+         <span>Ola! </span>
+         <a href="#">Entrar</a>
+         <span> ou </span>
+         <a href="#">Cadastre-se</a>
+       </div>
+       <div class="header-flag">
+         <img src="img/inventicons_29.png" alt="Flag">
+         <a href="#">Minhas Ofertas</a>
+       </div>
+       <ul class="header-menu">
+         <li><a href="#">Meu YouBike</a></li>
+         <li><a href="#">Vender</a></li>
+         <li><a href="#">Forum</a></li>
+         <li><a href="#">Contato</a></li>
+         <li><a href="#">Ajuda</a></li>
+       </ul>
+   </div>  <!-- header -->
+   <div class="boxes">
+     <div class="upper-box"><span>Cadastre-se</span></div>
+     <div class="lower-box">
+         <a href="#"><img src="img/facebook.png"
+           alt="Login with Facebook"></a>
+         <img class="two_lines" src="img/2lines.png" alt="">
+         <div class="ou">OU</div>
+         <form action="#" method="get">
+             <div class="account-fields">
+               <div><input type="text" id="first_name" required maxlength="50"
+                 placeholder="First Name"></div>
+               <div><input type="text" id="last_name" required maxlength="50"
+                 placeholder="Last Name"></div>
+               <div><input type="email" id="email_address" required maxlength="50"
+                 placeholder="Email Address"></div>
+               <div><input type="password" id="pwd" required maxlength="50"
+                 placeholder="Choose Password"></div>
+               <div><input type="password" id="confirm-pwd" required maxlength="50"
+                 placeholder="Password Confirm"></div>
+               <div class="check-box">
+                  <input type="checkbox" id="spam">
+                  <label for="spam">Send me YouBike updates and tips</label>
+               </div>
+               <div><input type="submit" id="create-btn" value="Create my Account"></div>
+             </div> <!--account-fields-->
+         </form>
+         <div class="policy">
+           <p>By clicking the button above, you agree to the Terms of Service</p>
+           <a href="#">View our Privacy Policy.</a>
+         </div>
+     </div>
+   </div>
+</body>
+</html>

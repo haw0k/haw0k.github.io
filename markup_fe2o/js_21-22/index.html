@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>JS 13-14 homework</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
+  <script src="js/tmpl.js" charset="utf-8"></script>
+  <script src="js/dist/script.js" charset="utf-8"></script>
+</head>
+<body>
+    <script type="text/html" id="resig-template">
+      <header class=="header">
+        <h1 class="header__title">Разгадай загадки</h1>
+      </header>
+      <form id="test">
+      <% for ( var i=0; i < data.length; i++ ) { %>
+      <% var a = i+1; %>
+      <article class="questions__container">
+        <h4 class="question__title"><%= a %>. <%= data[i].question %></h4>
+        <input type="radio" class="checkgroup" name="question<%= a %>" id="variant<%= a %>-1"><label for="variant<%= a %>-1"> <%= data[i].answer1 %> </label><br>
+        <input type="radio" class="checkgroup" name="question<%= a %>" id="variant<%= a %>-2"><label for="variant<%= a %>-2"> <%= data[i].answer2 %> </label><br>
+        <input type="radio" class="checkgroup" name="question<%= a %>" id="variant<%= a %>-3"><label for="variant<%= a %>-3"> <%= data[i].answer3 %> </label><br>
+        <br>
+      </article>
+      <% }; %>
+      <footer class="footer">
+        <input class="button-submit" type="submit" value="Проверить мои результаты" disabled>
+      </footer>
+
+    </form>
+    </script>
+    <div class="modalWindow">
+
+    </div>
+</body>
+</html>
