@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-.top-menu--wrapper {
+.top-menu__wrapper {
   background-color: #2975ff;
   width: 100%;
   color: white;
@@ -20,25 +20,25 @@
   line-height: 56px;
   font-family: Ubuntu;
   font-weight: 800;
-  font-size: 15px;
+  font-size: 14px;
 }
-.top-menu--items {
+.top-menu__items {
   float: left;
   /*margin-right: 20px;*/
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.top-menu--items__1 {
+.top-menu__items--1 {
   background-color: #413f3f;
 }
 
-.top-menu--items a {
+.top-menu__items a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.top-menu--items a:hover {
+.top-menu__items a:hover {
   color: #f2f247;
 }
