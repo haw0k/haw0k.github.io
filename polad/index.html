@@ -2,20 +2,36 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>УНИВЕРСИТЕТСКАЯ ХИРУРГИЧЕСКАЯ КЛИНИКА ДОНЕЦКОГО НАЦИОНАЛЬНОГО МЕДИЦИНСКОГО УНИВЕРСИТЕТА им. М. ГОРЬКОГО г. ЛИМАН</title>
+  <title>Отделение хирургии Донецкого Медицинского Университета</title>
+    <!-- УНИВЕРСИТЕТСКАЯ ХИРУРГИЧЕСКАЯ КЛИНИКА ДОНЕЦКОГО НАЦИОНАЛЬНОГО МЕДИЦИНСКОГО УНИВЕРСИТЕТА им. М. ГОРЬКОГО г. ЛИМАН</title> -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed|Ubuntu+Mono' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
   <div class="page-wrapper">
     <header>
-
-      <div class="top-menu__wrapper">
+      <!-- <div class="logo"></div> -->
+      <img class="logo" src="img/surgery.jpg" alt="Лого">
+      <p class="logo-text clearfix">Университетская хирургическая клиника Донецкого Национального Медицинского Университета им. М. Горького</p>
+      <!-- <p class="logo-text clearfix">Донецкого Национального Медицинского Университета им. М. Горького</p> -->
+      <div class="top-menu__wrapper clearfix">
         <ul class="top-menu">
           <li class="top-menu__items top-menu__items--1"><a href="index.html">Главная страница</a></li>
           <li class="top-menu__items top-menu__items--2"><a href="operations.html">Перечень операций</a></li>
           <li class="top-menu__items top-menu__items--3"><a href="articles.html">Статьи</a></li>
-          <li class="top-menu__items top-menu__items--4"><a href="surgery.html">Хирургия</a></li>
+          <li class="top-menu__items top-menu__items--4 dropdown">
+            <a href="#">Хирургия</a>
+            <ul class="sub-menu">
+              <li class="top-menu__items"><a href="surgery.html">Традиционная</a></li>
+              <li class="top-menu__items"><a href="#">Лапароскопическая</a></li>
+              <li class="top-menu__items"><a href="#">Пластическая</a></li>
+              <li class="top-menu__items"><a href="#">Восстановительная</a></li>
+            </ul>
+          </li>
           <li class="top-menu__items top-menu__items--5"><a href="flebology.html">Флебология</a></li>
           <li class="top-menu__items top-menu__items--6"><a href="proctology.html">Проктология</a></li>
           <!-- <li class="top-menu__items top-menu__items--7"><a href="l-surgery.html">Лапароскопическая хирургия</a></li> -->

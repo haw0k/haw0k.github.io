@@ -8,14 +8,40 @@
   margin: 0 auto;
 }
 
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block; }
+
+/* HEADER */
+.logo {
+  width: 111px;
+  height: 141px;
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+}
+.logo-text {
+  /*float: left;*/
+}
+header p {
+  position: relative;
+  font-family: Ubuntu;
+  font-weight: 600;
+  font-size: 20px;
+  top: 70px;
+  text-align: center;
+  color: #413f3f;
+}
 .top-menu__wrapper {
-  background-color: #2975ff;
+  background-color: #119087;
   width: 100%;
   color: white;
   height: 56px;
-  margin-top: 36px;
+  margin-top: 16px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.49);
 }
-.top-menu {
+.top-menu, .sub-menu {
   list-style: none;
   line-height: 56px;
   font-family: Ubuntu;
@@ -27,6 +53,8 @@
   /*margin-right: 20px;*/
   padding-left: 15px;
   padding-right: 15px;
+  display: inline-block;
+  position: relative;
 }
 
 .top-menu__items--1 {
@@ -40,5 +68,31 @@
   letter-spacing: 1px;
 }
 .top-menu__items a:hover {
-  color: #f2f247;
+  /*color: #f2f247;*/
+  /*color: orange;*/
+  text-shadow: 1px 1px 2px white, 0 0 1em lightgrey;
+}
+
+.top-menu li ul {
+    background-color: #119087;
+    position:absolute;
+    left:0;
+    top:56px; /* make this equal to the line-height of the links (specified below) */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.49);
+    /*width:300px;*/
+}
+.top-menu li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+.top-menu li li ul {
+    position:absolute;
+    top:0;
+    left:200px; /* make this equal to the width of the sub nav above */
+    margin:0;
+}
+
+ul.sub-menu {
+    display:none;
 }
