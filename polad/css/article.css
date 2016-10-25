@@ -1,0 +1,21 @@
+* {
+
+}
+
+
+h1, h2, h3, li, p, ul {
+  font-family: Ubuntu;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+.figure {
+  float: left;
+  margin: 0 15px 10px 0px;
+  box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.5);
+}
+
+.bold {
+  font-weight: 600;
+}
