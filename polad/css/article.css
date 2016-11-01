@@ -1,9 +1,4 @@
 * {
-
-}
-
-
-h1, h2, h3, li, p, ul {
   font-family: Ubuntu;
 }
 
@@ -12,10 +7,46 @@ h1, h2, h3 {
 }
 .figure {
   float: left;
-  margin: 0 15px 10px 0px;
+  margin: 0 25px 10px 0px;
   box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.5);
+}
+.figure-wo_shadow {
+  float: left;
+  margin: 0 15px 10px 0px;
+  /*box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.5);*/
 }
 
 .bold {
   font-weight: 600;
+}
+
+.decimal {
+  list-style: decimal;
+}
+table {
+  box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.5);
+  border: 2px solid #413f3f;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #413f3f;
+}
+th {
+  border-bottom: 2px solid #413f3f;
+  background-color: #119087;
+  color: white;
+  padding: 10px;
+}
+td {
+  padding: 10px 20px 10px 20px;
+}
+th, thead tr {
+  text-align: center;
+}
+td li {
+  padding: 0px;
+}
+td ul {
+  padding-left: 0px;
+  margin: 0;
 }
