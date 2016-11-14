@@ -1,10 +1,8 @@
 $(document).ready(function() {
-    // $( '.dropdown' ).hover(
-    //     function(){
-    //         $(this).children('.sub-menu').slideDown(200);
-    //     },
-    //     function(){
-    //         $(this).children('.sub-menu').slideUp(200);
-    //     }
-    // );
+  $("#owl-demo").owlCarousel({
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    singleItem:true,
+    autoPlay: true,
+  });
 }); // end ready
