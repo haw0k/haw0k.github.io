@@ -4,9 +4,11 @@
 
 #owl-demo {
   width: 771px;
-  height: 150px;
+  height: 291px;
 }
 #owl-demo img {
+  /*width: 771px;
+  height: 150px;*/
 }
 
 #owl-demo .item{
