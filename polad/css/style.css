@@ -166,7 +166,9 @@ article {
   height: 20px;
   float: left;
 }
-
+.articles__items {
+  list-style: none;
+}
 /* FOOTER */
 footer {
   background-color: #7c8d8e;
