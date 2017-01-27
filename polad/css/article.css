@@ -33,7 +33,7 @@ h1, h2, h3 {
 }
 
 .picture-centered {
-  width: 210px;
+  /*width: 210px;*/
   text-align: center;
   margin: 0 auto;
 }
