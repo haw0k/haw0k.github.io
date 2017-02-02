@@ -93,7 +93,7 @@ nav ul a
 	text-decoration:none;
 	font-weight:400;
 	line-height:32px;
-	padding:10px 10px;
+	padding:10px 16px;
   font-size: 15px;
 }
 
@@ -136,7 +136,7 @@ nav ul ul li
 nav ul ul a
 {
 	line-height:120%;
-	padding:10px 15px
+	padding:10px 15px;
 }
 
 nav ul ul ul
