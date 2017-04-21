@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Host: xipypri.cc.ua
+Sitemap: http://xipypri.cc.ua/sitemap.txt

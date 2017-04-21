@@ -1,0 +1,13 @@
+ Том в устройстве C имеет метку SSD-1
+ Серийный номер тома: B276-0D16
+
+ Содержимое папки C:\Users\root\Documents\GoForIT\github.io\haw0k.github.io\polad\articles\surgery
+
+07.02.2017  12:37    <DIR>          .
+07.02.2017  12:37    <DIR>          ..
+02.11.2016  03:38            37 655 gryza.html
+01.02.2017  18:18            14 685 gryza_pahovaya.html
+02.02.2017  01:37            39 247 lechenie_gryz.html
+07.02.2017  12:37                 0 sitemap.txt
+               4 файлов         91 587 байт
+               2 папок  36 391 211 008 байт свободно

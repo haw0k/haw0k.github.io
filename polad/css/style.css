@@ -71,10 +71,12 @@ p {
 nav
 {
   background-color: #119087;
-  width: 100%;
+  width: 786px;
   color: white;
   height: 52px;
   margin-top: 1px;
+  margin-left: -10px;
+  padding-left: 5px;
 }
 
 nav ul
@@ -93,7 +95,7 @@ nav ul a
 	text-decoration:none;
 	font-weight:400;
 	line-height:32px;
-	padding:10px 16px;
+	padding:10px 8px;
   font-size: 15px;
 }
 
@@ -168,6 +170,7 @@ article {
 }
 .articles__items {
   list-style: none;
+  margin-left: 0;
 }
 /* FOOTER */
 footer {
