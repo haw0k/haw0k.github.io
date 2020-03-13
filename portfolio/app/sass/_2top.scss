@@ -1,0 +1,33 @@
+@import "vars";
+
+/* SCROLLER TO TOP
+start */
+.top {
+	position: fixed;
+	bottom: 15px;
+	right: -120px;
+	width: 50px;
+	height: 50px;
+	border-radius: 10em;
+	cursor: pointer;
+	background-color: #fff;
+	text-align: center;
+	opacity: .6;
+	color: darkgrey;
+	transition: all .25s ease;
+	z-index: 5;
+	.fa {
+    font-size: 32px;
+    margin-top: 8px;
+  }
+	&:hover {
+    opacity: .8;
+    background-color: lighten($accent, 30%);
+    color: darken(darkgrey, 30%);
+  }
+	&.active {
+    right: 25px;
+  }
+}
+/* SCROLLER TO TOP
+end */

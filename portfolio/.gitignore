@@ -1,0 +1,11 @@
+/node_modules/
+/dist/
+/design/
+/pics/
+/zip/
+/.git/
+/app/css/
+/**/*.psd
+/**/Thumbs.db
+/**/*.DS_Store
+/google2f772a9006114c83.html

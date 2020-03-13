@@ -1,0 +1,6 @@
+@import "_mixins/font-face";
+
+@include font-face("Exo2Thin", "../fonts/Exo2Thin/Exo2Thin");
+@include font-face("Exo2Light", "../fonts/Exo2Light/Exo2Light");
+@include font-face("Exo2Regular", "../fonts/Exo2Regular/Exo2Regular");
+@include font-face("Exo2SemiBold", "../fonts/Exo2SemiBold/Exo2SemiBold");
