@@ -2,6 +2,7 @@
 $(function() {
 
 // magnificPopup scroller start
+  customMfpGallery('.gallery__wrapper--glorialogistic', 'a.gallery__pic--glorialogistic');
   customMfpGallery('.gallery__wrapper--portal', 'a.gallery__pic--portal');
   customMfpGallery('.gallery__wrapper--crma', 'a.gallery__pic--crma');
   customMfpGallery('.gallery__wrapper--crmb', 'a.gallery__pic--crmb');
