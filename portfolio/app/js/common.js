@@ -8,16 +8,11 @@ $(function() {
   customMfpGallery('.gallery__wrapper--crmb', 'a.gallery__pic--crmb');
   customMfpGallery('.gallery__wrapper--colortable', 'a.gallery__pic--colortable');
   customMfpGallery('.gallery__wrapper--crypto-vue', 'a.gallery__pic--crypto-vue');
-  customMfpGallery('.gallery__wrapper--orlando', 'a.gallery__pic--orlando');
-  customMfpGallery('.gallery__wrapper--mogo', 'a.gallery__pic--mogo');
   customMfpGallery('.gallery__wrapper--btc', 'a.gallery__pic--btc');
   customMfpGallery('.gallery__wrapper--eliteclub', 'a.gallery__pic--eliteclub');
   customMfpGallery('.gallery__wrapper--decor-solutions', 'a.gallery__pic--decor-solutions');
   customMfpGallery('.gallery__wrapper--medhelper', 'a.gallery__pic--medhelper');
   customMfpGallery('.gallery__wrapper--urlaubsgluck', 'a.gallery__pic--urlaubsgluck');
-  // customMfpGallery('.gallery__wrapper--xipypri', 'a.gallery__pic--xipypri');
-  // customMfpGallery('.gallery__wrapper--buildhome', 'a.gallery__pic--buildhome');
-  // customMfpGallery('.gallery__wrapper--pingbuller', 'a.gallery__pic--pingbuller');
   customMfpGallery('.gallery__wrapper--vbs', 'a.gallery__pic--vbs');
 
   function customMfpGallery(classOfMfpGallery, classOfMfpLink) {
